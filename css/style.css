@@ -377,7 +377,7 @@ template {
   padding-bottom: 40px;
 }
 
-.navbar__menu-button {
+.navbar-top__menu-button {
   display: none;
 }
 
@@ -491,7 +491,6 @@ template {
   }
   .container .navbar__search {
     margin-left: auto;
-    max-width: 340px;
   }
   .container .navbar-menu {
     padding-top: 22px;
@@ -500,6 +499,9 @@ template {
   .container .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .container .search__input {
+    max-width: 340px;
   }
 }
 
@@ -520,6 +522,7 @@ template {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
