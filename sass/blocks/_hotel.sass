@@ -1,0 +1,85 @@
+.hotel
+  padding-top: 23px
+  padding-bottom: 70px
+  &-grid
+    padding-bottom: 70px
+  &-info
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-bottom: 20px
+    &__name
+      margin-top: 4px
+      margin-bottom: 0
+    &__offer
+      margin-left: 14px
+      margin-top: 4px
+  &-name
+    font-weight: 700
+    font-size: 24px
+    line-height: 30px
+  &-wrapper
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+  &-description
+    font-size: 12px
+    line-height: 15px
+.offer
+  font-weight: 600
+  font-size: 10px
+  line-height: 13px
+  background-color: $primary
+  color: $light
+  padding: 3px 9px
+  border-radius: 3px
+.stars
+  flex-basis: 100%
+
+.rating
+  width: 65px
+  height: 45px
+  text-align: center
+  color: $light
+  background-color: $primary
+  border-radius: 4px
+  &__text
+    font-weight: 600
+    font-size: 8px
+    line-height: 10px
+  &__counter
+    font-weight: 700
+    font-size: 14px
+    line-height: 18px
+.swiper
+  position: relative
+  border-radius: 8px
+  height: 450px
+  width: 100%
+  &::after
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
+    z-index: 10
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+.slider
+  width: 728px
+  &-button
+    position: absolute
+    z-index: 99
+    background: transparent
+    top: 50%
+    width: 30px
+    height: 30px
+    border: none
+    cursor: pointer
+    transform: translateY(-50%)
+    &--next
+      right: 18px
+    &--prev
+      left: 18px
