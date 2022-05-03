@@ -3,10 +3,11 @@
 ### Ishlatilgan texnologiyalar
 1. HTML
 2. CSS
-3. SASS
-4. JavaScript va uning qo'shimcha kutubxonalari
-5. Figma
-6. Linux Operatsion tizimi
+3. BEM metodologiyasi
+4. SASS
+5. JavaScript va uning qo'shimcha kutubxonalari
+6. Figma
+7. Linux Operatsion tizimi
 
 ### Foydalanilgan code editor
 1. Visual Studio Code
